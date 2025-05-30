@@ -1,0 +1,62 @@
+/* Base styles */
+.most-popular-badge {
+  background-color: #DD0355;
+  position: absolute;
+  top: -12px;
+  right: 16px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  padding: 4px 16px;
+  border-radius: 9999px;
+}
+
+.discount-badge {
+  background-color: #22C55E;
+  font-size: 0.75rem;
+  color: white;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 9999px;
+}
+
+.plan-card {
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(4px);
+  border-radius: 12px;
+  padding: 24px;
+  border: 1px solid #1f1f1f;
+  transition: all 0.5s;
+  position: relative;
+}
+
+.plan-card.popular {
+  border: 2px solid #DD0355;
+}
+
+/* Header styles */
+.site-header {
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid #1f1f1f;
+  padding: 12px 16px;
+}
+
+/* Toggle styles */
+.toggle-container {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 4px;
+  border-radius: 9999px;
+  position: relative;
+}
+
+.toggle-button {
+  padding: 8px 24px;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  position: relative;
+  z-index: 10;
+  transition: all 0.3s;
+} 
